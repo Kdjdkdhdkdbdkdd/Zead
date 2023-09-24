@@ -118,7 +118,7 @@ $houda = json_decode(file_get_contents("houda.json"),true);
 if ($chat_id == $group) {
 if ($text) {
 if($text == '/start' or $text == '->' or $text == "Back"){
-bot('sendvideo', ['video' =>'https://t.me/ronkndkn/7', 'chat_id' => file_get_contents("ID"), 'caption' => "• ➞ 𝐇𝐈 \n• ➞ 𝐓𝐇𝐄 𝐁𝐄𝐒𝐓 𝐂𝐇𝐄𝐂𝐊𝐄𝐑 𝐈𝐍 𝐓𝐄𝐋𝐄𝐆𝐑𝐀𝐌\n• ➞ 𝐁𝐲 : - 𝗭𝗮𝗮𝗞",
+bot('sendvideo', ['video' =>'https://t.me/ronkndkn/7', 'chat_id' => file_get_contents("ID"), 'caption' => "• ➞ 𝐇𝐈 \n• ➞ 𝐓𝐇𝐄 𝐁𝐄𝐒𝐓 𝐂𝐇𝐄𝐂𝐊𝐄𝐑 𝐈𝐍 𝐓𝐄𝐋𝐄𝐆𝐑𝐀𝐌\n• ➞ 𝐁𝐲 : 𝐙𝐚𝐚𝐤",
 'parse_mode' => "MarkDown", 
 'disable_web_page_preview' => true,
 'reply_markup' => json_encode(['resize_keyboard' => true, 'keyboard' => [
@@ -130,6 +130,8 @@ bot('sendvideo', ['video' =>'https://t.me/ronkndkn/7', 'chat_id' => file_get_con
 [["text" =>"• 𝖯𝖬2 𝖲𝗍𝖺𝗍𝗎𝗌 •"],["text" =>"• 𝖲𝗍𝖺𝗍𝗎𝗌 𝖳𝗒𝗉𝖾 •"]], 
 [["text" =>"• ايقاف صيد الكل •"],["text" =>"• تشغيل صيد الكل •"]],] ]) ]);
 }
+}
+
 
 if ($text == "• حـالـة الـبـيـنـج  •") {
 
